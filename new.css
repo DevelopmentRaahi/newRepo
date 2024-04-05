@@ -33,6 +33,22 @@
     color: #000000; 
     font-size: 1vw;
 }
+.nav-clild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-clild li {
+    list-style: none;
+
+}
+
+.nav-clild #icon {
+    display: none;
+    font-size: 1.5vw;
+}
 .nav-menu a:hover{
     color:#2962ff;
 }
@@ -127,6 +143,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .box{
     border: 1px solid gray;
     width: 25%;
@@ -134,6 +151,9 @@
     border-radius: 1.2vw;
     margin-left: 1.2vw;
     text-align: center;
+}
+.hide {
+    display: inline;
 }
 .box button {
     margin-top: 1.2vw;
