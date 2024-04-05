@@ -1,0 +1,217 @@
+@media (max-width: 600px) {
+    body {
+        width: 100vh;
+        box-sizing: border-box;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .mainimgtext {
+        margin-left: 3vh;
+    }
+
+    .mainimgtext button {
+        position: relative;
+        top: -4vh;
+        padding: .5vh 1vh;
+    }
+
+    .nav-clild #icon {
+        display: block;
+        font-size: 8vw;
+        font-weight: 800;
+    }
+
+    .main-headling {
+        font-size: 3rem;
+        padding: 0vh 0vh;
+        margin-top: 10vh;
+        font-weight: 400;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .main-logotext-content {
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+
+    .main-plan {
+        width: 100vw;
+    }
+
+    .main-logotext-content {
+        margin-top: 0;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-content: center;
+    }
+
+    .main-plan {
+
+        display: grid;
+        grid-template-columns: 90vh;
+        grid-gap: 3vh;
+    }
+
+    .box {
+        width: 100%;
+        padding: 8vh 0vh;
+    }
+
+    .mainimgtext img {
+        width: 7vh;
+        height: 7vh;
+    }
+
+    .mainimgtext p {
+        font-size: 2.2vh;
+    }
+
+    .main-logotext {
+        display: grid;
+        justify-content: center;
+        grid-gap: 0vh;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .textbefore {
+        font-size: 3.4vh;
+        margin-top: 1.2vh;
+    }
+
+    #first {
+        font-size: 6vh;
+    }
+
+    #price {
+        font-size: 5vh;
+    }
+
+    #price span {
+        font-size: 3vh;
+    }
+
+    #lines {
+        font-size: 3.5vh;
+    }
+
+    #contenet {
+        font-size: 3.5vh;
+    }
+
+    .buttonStyle button {
+        margin: 5vh 0vh;
+        width: 30vh;
+        padding: 2vh 3vh;
+    }
+
+    .list li {
+        margin: 3vh 0vh;
+        font-size: 2.5vh;
+        padding: 1vh 0vh;
+    }
+
+    .box-para {
+        font-size: 2.3vh;
+        line-height: 3.5vh;
+        font-weight: 300;
+    }
+
+    .para_line {
+        margin: 8vh 0vh;
+        font-size: 3vh;
+    }
+
+    .maintitle {
+        font-size: 6vh;
+    }
+
+    .textmain {
+        font-size: 2vh;
+        line-height: 3vh;
+        margin-top: 2.5vh;
+    }
+
+    .featurebox {
+        display: grid;
+    }
+
+    .leftbox {
+        width: 90vh;
+        padding: 2vh 2vh;
+    }
+
+    .leftbox h2 {
+        font-size: 4vh;
+    }
+
+    .leftbox p {
+        font-size: 2vh;
+        line-height: 3vh;
+    }
+
+    .rightbox {
+        width: 90vh;
+        margin-top: 3.5vh;
+    }
+
+    .section {
+        display: grid;
+    }
+
+
+
+    .main-section {
+        padding: 5vh 3vh;
+    }
+
+    .main-section h3 {
+        font-size: 5vh;
+    }
+
+    .main-section p {
+        font-size: 2.6vh;
+        line-height: 3vh;
+    }
+
+    .footer {
+        display: grid;
+        width: 100%;
+        padding: 4vh 3.2vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+
+
+    }
+
+    .last {
+        font-size: 1.3vh;
+    }
+
+    .footer div {
+        margin: 2vh 3vh;
+
+    }
+
+    .footer p {
+        font-size: 3.2vh;
+    }
+
+    .footer li {
+        font-size: 2vh;
+        line-height: 3vh;
+
+    }
+
+    .maintitle {
+        margin-top: 2vh;
+        padding: 8vh 2vh;
+    }
+}
