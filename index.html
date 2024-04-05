@@ -11,6 +11,7 @@
 />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
@@ -29,18 +30,20 @@
                 <li><a>Contact sales</a></li>               
                 <button >Admin console</button>
                 <button class="noborder">Get started</button>
-                
+                               
             </ul>
+            <li 
+            > <i class="ri-menu-2-line" id="icon"></i></li>
         </div>
     </nav>
     <!-- nav end -->
     <div class="main">
         <div class="main-headling">
-            <p>Try Google Workspace for 14 days. And take <br>Gemini for a test drive while you’re at it.</p>
+            <p>Try Google Workspace for 14 days. And take <span class="hide"><br></span>Gemini for a test drive while you’re at it.</p>
         </div>
         <div class="main-logotext">
             <div class="textbefore">
-                <p> Every plan <br>includes</p>
+                <p> Every plan includes</p>
             </div>
             <div class="main-logotext-content">
                 <div class="mainimgtext">
@@ -90,7 +93,7 @@
             </div>
             <div class="main-last">
                 <div class="textbefore">
-                    <p> Featured <br>add-on</p>
+                    <p> Featured add-on</p>
                 </div>
                 <div class="mainimgtext">
                     <img src="assests/social media/gemini-color-v2-64px.png" alt="">
@@ -103,45 +106,8 @@
    </div>
    <!-- plans section -->
         
-    <div class="main-plan">
-            <div class="box">
-                <p id="first">Business Starter</p>
-                <p id="price">₹136.90 <span>INR</span></p>
-                <P id="lines">₹230*</P>
-                <P id="contenet">per user / month, 1 year commitment</P>
-                <div class="buttonStyle">
-                    <button>Get Started</button>
-                    <button>Buy now</button>
-                </div>
-                <hr class="hrline">
-                <ul class="list">                    
-                <li><span class="material-symbols-outlined">arrow_right</span>
-                    Custom and secure business email</li>
-                <li><span class="material-symbols-outlined">arrow_right</span>100 participant video meetings</li>
-                <li> <span class="material-symbols-outlined">arrow_right</span>30 GB pooled storage per user*</li>
-                <li> <span class="material-symbols-outlined">arrow_right</span>Security and management controls</li>
-                <li><span class="material-symbols-outlined">arrow_right</span>Standard Support</li> 
-                </ul>
-            </div>
-            <div class="box">
-                <p id="first">Business Starter</p>
-                <p id="price">₹136.90 <span>INR</span></p>
-                <P id="lines">₹230*</P>
-                <P id="contenet">per user / month, 1 year commitment</P>
-                <div class="buttonStyle">
-                    <button>Get Started</button>
-                    <button>Buy now</button>
-                </div>
-                <hr class="hrline">
-                <ul class="list">                    
-                <li><span class="material-symbols-outlined">arrow_right</span>
-                    Custom and secure business email</li>
-                <li><span class="material-symbols-outlined">arrow_right</span>100 participant video meetings</li>
-                <li> <span class="material-symbols-outlined">arrow_right</span>30 GB pooled storage per user*</li>
-                <li> <span class="material-symbols-outlined">arrow_right</span>Security and management controls</li>
-                <li><span class="material-symbols-outlined">arrow_right</span>Standard Support</li> 
-                </ul>
-            </div>
+    <div class="wraptwo">
+        <div class="main-plan">
             <div class="box">
                 <p id="first">Business Starter</p>
                 <p id="price">₹136.90 <span>INR</span></p>
@@ -180,6 +146,46 @@
                 <li><span class="material-symbols-outlined">arrow_right</span>Standard Support</li> 
                 </ul>
             </div> 
+              <div class="box">
+                <p id="first">Business Starter</p>
+                <p id="price">₹136.90 <span>INR</span></p>
+                <P id="lines">₹230*</P>
+                <P id="contenet">per user / month, 1 year commitment</P>
+                <div class="buttonStyle">
+                    <button>Get Started</button>
+                    <button>Buy now</button>
+                </div>
+                <hr class="hrline">
+                <ul class="list">                    
+                <li><span class="material-symbols-outlined">arrow_right</span>
+                    Custom and secure business email</li>
+                <li><span class="material-symbols-outlined">arrow_right</span>100 participant video meetings</li>
+                <li> <span class="material-symbols-outlined">arrow_right</span>30 GB pooled storage per user*</li>
+                <li> <span class="material-symbols-outlined">arrow_right</span>Security and management controls</li>
+                <li><span class="material-symbols-outlined">arrow_right</span>Standard Support</li> 
+                </ul>
+            </div>
+            <div class="box">
+                <p id="first">Business Starter</p>
+                <p id="price">₹136.90 <span>INR</span></p>
+                <P id="lines">₹230*</P>
+                <P id="contenet">per user / month, 1 year commitment</P>
+                <div class="buttonStyle">
+                    <button>Get Started</button>
+                    <button>Buy now</button>
+                </div>
+                <hr class="hrline">
+                <ul class="list">                    
+                <li><span class="material-symbols-outlined">arrow_right</span>
+                    Custom and secure business email</li>
+                <li><span class="material-symbols-outlined">arrow_right</span>100 participant video meetings</li>
+                <li> <span class="material-symbols-outlined">arrow_right</span>30 GB pooled storage per user*</li>
+                <li> <span class="material-symbols-outlined">arrow_right</span>Security and management controls</li>
+                <li><span class="material-symbols-outlined">arrow_right</span>Standard Support</li> 
+                </ul>
+            </div>          
+    </div>
+   
     </div>
     
 <div class="fixwidth">
@@ -201,7 +207,7 @@
 <!-- productive heading -->
 <div class="maintitle">
     <p>Google Workspace Features</p>
-    <p class="textmain" >For small and medium sized businesses looking to level up. Get advanced office tools you can take anywhere.<br> From pitching a proposal to sending an invoice, it’s all at your fingertips.
+    <p class="textmain" >For small and medium sized businesses looking to level up. Get advanced office tools you can take anywhere. <span class="hide"><br></span> From pitching a proposal to sending an invoice, it’s all at your fingertips.
 
     </p>
 </div>
